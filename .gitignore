@@ -106,13 +106,7 @@ temp/
 *.sw?
 
 # Claude files
-!.claude/
-!.claude/CLAUDE.md
-!.claude/prds/
-!.claude/epics/
-.claude/*.cache/
-.claude/*.log/
-.claude/temp/
+.claude/
 
 # Build artifacts
 *.tsbuildinfo
@@ -133,5 +127,3 @@ sui-config.json
 # Development tools
 .devcontainer/
 .dockerignore
-
-.claude
