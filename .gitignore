@@ -106,10 +106,13 @@ temp/
 *.sw?
 
 # Claude files
-.claude/
+!.claude/
 !.claude/CLAUDE.md
 !.claude/prds/
 !.claude/epics/
+.claude/*.cache/
+.claude/*.log/
+.claude/temp/
 
 # Build artifacts
 *.tsbuildinfo
