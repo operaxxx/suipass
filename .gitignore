@@ -133,3 +133,5 @@ sui-config.json
 # Development tools
 .devcontainer/
 .dockerignore
+
+.claude
